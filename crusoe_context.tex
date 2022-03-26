@@ -1,0 +1,40 @@
+L'obiettivo di questa parte \`e quello di ottenere un'equazione dinamica che possa essere utilizzata per analizzare un problema economico e di mettere in evidenza che gli aspetti di interesse sono tre: la determinazione dello stato stazionario, lo studio qualitativo e la soluzione analitica del modello.
+\section{Il modello}
+Si immagini un singolo soggetto che coltiva un appezzamento di terra. Indichiamo con $k$ la quantit\`a di semi che pianta. Il raccolto $y$ \`e una funzione crescente della quantit\`a di sementi:
+\startformula
+y=f(k).
+\stopformula
+Una volta ottenuto il raccolto, il soggetto decide di consumarne una quantit\`a $c$ e di 
+accantonare la parte restante $y-c$ per la semina del periodo successivo.
+
+Chiediamoci ora qual \`e la variazione della quantit\`a di sementi ($\dot{k}$). Essa sar\`a pari alla nuova quantità di semi ($y-c$) diminuita della quantità di semi di partenza ($k$):
+
+\startformula
+\dot{k}=y-c-k=f(k)-c-k
+\stopformula
+
+Il problema, dal punto di vista economico \`e quello di trovare come evolver\`a la situazione per quanto riguarda le variabili endogene. In questo semplice modello, si tratta di trovare il cammino futuro di $k$. La dinamica della produzione $y$ si ricava poi inserendo quella di $k$ nella funzione di produzione $f()$.
+
+Non \`e sempre possibile ottenere la soluzione analitica per il cammino di $k$. Un obiettivo meno ambizioso \`e quello di dare una soluzione qualitativa. Uno ancora meno ambizioso \`e quello di vedere se esiste uno stato stazionario.
+Iniziamo dal pi\`u semplice.
+
+\section{Stato stazionario}
+In questo caso basta imporre $\dot{k}=0$ ovvero risolvere l'equazione
+\startformula f(k)-c-k=0.\stopformula 
+Per trovare una soluzione, occorre adottare una forma funzionale per la funzione di produzione ed adottare una funzione per il consumo. 
+Se ad esempio poniamo $y=k^{\alpha}$ si ha:
+\placeformula[eq:c_param]$$k^\alpha -c-k=0$$
+L'individuazione della funzione del consumo è un argomento molto studiato in macroeconomia che riprenderemo in seguito. 
+
+A livello didattico potremmo trattare la $c$ come un parametro del modello, caso che analizzeremo nel paragrafo successivo, oppure assumere che il soggetto consumi una percentuale del suo reddito, come faremo qui di seguito. 
+
+Assumiamo dunque che 
+\startformula c=\gamma y=\gamma k^\alpha.\stopformula  
+Con questa assunzione, la (\in[eq:c_param]) diventa:
+\placeformula[eq:c_gy]$$\dot{k}=k^\alpha-\gamma k^\alpha -k.$$
+La condizione di stazionariet\`a è dunque:
+\startformula sk^\alpha-k=0\stopformula 
+dove $s=1-\gamma$. Ora \`e possibile determinare esplicitamente lo stato stazionario:
+\startformula 
+k/k^{\alpha}=s \Rightarrow k^{1-\alpha}=s \Rightarrow k^*=s^{\frac{1}{1-\alpha}} 
+\stopformula 

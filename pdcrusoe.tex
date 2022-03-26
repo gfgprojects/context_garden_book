@@ -1,0 +1,252 @@
+L'obiettivo di questa parte è quello di ottenere un'equazione dinamica
+che possa essere utilizzata per analizzare un problema economico e di
+mettere in evidenza che gli aspetti di interesse sono tre: la
+determinazione dello stato stazionario, lo studio qualitativo e la
+soluzione analitica del modello.
+
+\section[title={Il modello},reference={il-modello}]
+
+Si immagini un singolo soggetto che coltiva un appezzamento di terra.
+Indichiamo con $k$ la quantità di semi che pianta. Il raccolto $y$ è una
+funzione crescente della quantità di sementi:
+\startformula y=f(k). \stopformula Una volta ottenuto il raccolto, il
+soggetto decide di consumarne una quantità $c$ e di accantonare la parte
+restante $y-c$ per la semina del periodo successivo.
+
+Chiediamoci ora qual è la variazione della quantità di sementi
+($\dot{k}$). Essa sarà pari alla nuova quantità di semi ($y-c$)
+diminuita della quantità di semi di partenza ($k$):
+\startformula \dot{k}=y-c-k=f(k)-c-k \stopformula Il problema, dal punto
+di vista economico è quello di trovare come evolverà la situazione per
+quanto riguarda le variabili endogene. In questo semplice modello, si
+tratta di trovare il cammino futuro di $k$. La dinamica della produzione
+$y$ si ricava poi inserendo quella di $k$ nella funzione di produzione
+$f()$.
+
+Non è sempre possibile ottenere la soluzione analitica per il cammino di
+$k$. Un obiettivo meno ambizioso è quello di dare una soluzione
+qualitativa. Uno ancora meno ambizioso è quello di vedere se esiste uno
+stato stazionario. Iniziamo dal più semplice.
+
+\popbackground
+
+\section[title={Stato stazionario},reference={stato-stazionario}]
+
+In questo caso basta imporre $\dot{k}=0$ ovvero risolvere l'equazione
+\startformula f(k)-c-k=0. \stopformula Per trovare una soluzione,
+occorre adottare una forma funzionale per la funzione di produzione ed
+adottare una funzione per il consumo. Se ad esempio poniamo
+$y=k^{\alpha}$ si ha: 
+\placeformula[eq:c_param] $$k^\alpha -c-k=0$$
+
+L'individuazione della funzione del
+consumo è un argomento molto studiato in macroeconomia che riprenderemo
+in seguito.
+
+A livello didattico potremmo trattare la $c$ come un parametro del
+modello, caso che analizzeremo nel paragrafo successivo, oppure assumere
+che il soggetto consumi una percentuale del suo reddito, come faremo qui
+di seguito.
+
+Assumiamo dunque che
+\startformula c=\gamma y=\gamma k^\alpha. \stopformula Con questa
+assunzione, la \in[eq:c_param] diventa:
+\placeformula[eq:c_gy]$$\dot{k}=k^\alpha-\gamma k^\alpha -k.$$
+
+
+La condizione di stazionarietà è dunque:
+\startformula sk^\alpha-k=0 \stopformula dove $s=1-\gamma$. Ora è
+possibile determinare esplicitamente lo stato stazionario:
+\startformula k/k^{\alpha}=s \Rightarrow k^{1-\alpha}=s \Rightarrow k^*=s^{\frac{1}{1-\alpha}} \stopformula
+
+\section[title={Soluzione
+qualitativa},reference={soluzione-qualitativa}]
+
+La soluzione qualitativa dipende dalla funzione del consumo. Continuiamo
+per il momento con il caso del consumo proporzionale al reddito, per poi
+tornare, a fini didaddici, al caso di consumo come parametro.
+
+\subsection[title={$c=\gamma y$},reference={cgamma-y}]
+
+Riprendiamo dunque l'equazione (\goto{{[}eq:c_gy{]}}[eq:c_gy]). Al fine
+di analizzarla qualitativamente è importante determinare il segno di
+$\dot{k}$ che può essere dedotto dalla sua equazione:
+\startformula \dot{k}=(1-\gamma)k^\alpha-k. \stopformula Si procede
+tracciando graficamente le funzioni rappresentate dai due addendi del
+lato destro. Tracciamo dunque nello stesso grafico sia la funzione
+$y=sk^{\alpha}$ e la funzione $y=k$. Le due funzioni dipendono da $k$,
+per cui, avremo questa variabile nell'asse delle ascisse. La funzione
+$y=k$ è dunque la retta che esce dall'origine e ha inclinazione di 45
+gradi. $y=sk^{\alpha}$ parte dall'origine degli assi e la sua forma
+dipende dal parametro $\alpha$. In particolare, è convessa verso il
+basso se $\alpha<1$, ovvero nel caso di interesse.
+
+Si noti che il punto di incontro delle due funzioni rappresenta lo stato
+stazionario calcolato in precedenza ($k^*$).
+
+Per $0\le\alpha\le 1$, quando $k<k^*$ si ha $sf(k)>k$, questo significa
+che $\dot{k}>0$ ovvero che $k$ tende ad aumentare. Al contrario se
+$k>k^*$, $k$ diminuisce. In conclusione $k$ converge a $k^*$.
+
+La nostra conclusione qualitativa è dunque la seguente:
+
+quando $0\le\alpha\le 1$, il sistema converge alla soluzione di stato
+stazionario.
+
+\subsection[title={$c$ come parametro},reference={c-come-parametro}]
+
+Ritorniamo ora al caso in cui $c$ è un parametro \cite[alternative=authoryear,lefttext={si veda },righttext={ p. 404}][intriligator02].
+Possiamo scrivere \startformula \dot{k}=(k^\alpha-k)-c. \stopformula
+Come in precedenza, partiamo dalla forma di $k^\alpha-k$ quando
+$0<\alpha<1$. Per $c$ sufficientemente basso, imponendo la
+stazionarietà, si individuano due valori $k_l(c)<k_h(c)$ tali che
+
+$\dot{k}>0$ se $k_l<k<k_h$ e $\dot{k}<0$ per gli altri valori.
+
+Ne segue che $k_h$ è stabile mentre $k_l$ è instabile.
+
+Conviene analizzare i casi estremi. Per $c=0$ si ha che $k_l=0$ ma
+questo punto non è stabile e prima o poi si finirà in $k_h$. L'altro
+caso estremo si ha quando il livello di $c$ è tale che $k_l=k_h$.
+Indicheremo questo punto con $k_{gr}$ dove $gr$ sta per {\em golden
+rule} in quanto il consumo è il massimo possibile. La cosa da notare è
+che se si parte da un livello di capitale più alto di $k_{gr}$, si
+converge a questo livello, ovvero $k_{gr}$ è attrattivo, mentre se ci si
+sposta minimamente a sinistra, $k_{gr}$ è repulsivo. Un punto con le
+caratteristiche appena descritte prende il nome di punto di sella. Per
+il momento ci fermiamo alla constatazione dell'esistenza di simili
+punti. Entreremo nei dettagli di questo tipo di stati stazionari quando
+verrà esposto il modello di Ramsey.
+
+L'analisi quantitativa di questa versione del modello ci ha segnalato
+che:
+
+ci possono essere diversi punti di stato stazionario, essi posso essere
+stabili, instabili o di sella.
+
+\section[title={Soluzione
+quantitativa},reference={soluzione-quantitativa}]
+
+Ritorniamo ora al caso in cui $c=\gamma y$. La soluzione quantitativa si
+ottiene risolvendo l'equazione differenziale
+\placeformula[eq:crusoe_c=gammay]$$ \dot{k}=sk^{\alpha}-k$$
+L'equazione non è lineare,
+ma è possibile ricondurla ad una lineare \cite[alternative=authoryear,lefttext={si veda },righttext={ pag. 500}][chiang84].
+
+Poniamo $z=k^{1-\alpha}$. Facendo la derivata di quest'ultima rispetto
+al tempo abbiamo
+\startformula \dot{z}=(1-\alpha) k^{-\alpha}\dot{k}. \stopformula
+Sostituendovi la
+(\goto{{[}eq:crusoe_c=gammay{]}}[eq:crusoe_cux3dgammay]) abbiamo
+\placeformula[eq:crusoe_c=gammayz]$$ \dot{z}=(1-\alpha) k^{-\alpha}(sk^{\alpha}-k)=(1-\alpha)s-(1-\alpha)k^{1-\alpha}=(1-\alpha)s-(1-\alpha)z.$$
+
+La soluzione di questa
+equazione è data dalla somma di due componenti: la soluzione
+dell'equazione omogenea associata $z_g$ e la soluzione particolare $z_p$
+: \startformula z=z_g+z_p \stopformula
+
+L'equazione omogenea è \startformula \dot{z}=-(1-\alpha)z \stopformula
+essa può essere scritta come
+\startformula \frac{\dot{z}}{z}=-(1-\alpha) \Rightarrow \frac{d \ln{|z|}}{dt}=-(1-\alpha) \stopformula
+Integrando in $t$
+\startformula \int \frac{d \ln{|z|}}{dt} dt=\int -(1-\alpha) dt \stopformula
+Ora non è difficile risolvere gli integrali
+\startformula \ln{|z|}+c_1=-(1-\alpha)t+c_2 \stopformula si noti che $z$
+ha lo stesso segno di $k$ e che è logico richiedere la non negatività
+per questa variabile. Questo ci consente di togliere il valore assoluto.
+Se facciamo l'esponenziale in ambo i lati e poniamo $c=c_2-c_1$
+otteniamo \startformula z_g=e^{-(1-\alpha)t}e^{c} \stopformula
+
+Per $z_p$ proviamo la soluzione stazionaria che si ottiene risolvendo
+\startformula (1-\alpha)s-(1-\alpha)z=0 \stopformula da cui otteniamo
+\startformula z_p=s \stopformula
+
+Occorre verificare che questa sia effettivamente una soluzione della
+(\goto{{[}eq:crusoe_c=gammayz{]}}[eq:crusoe_cux3dgammayz]). Sostituendo
+$s$ al posto di $z$ nella
+(\goto{{[}eq:crusoe_c=gammayz{]}}[eq:crusoe_cux3dgammayz]) si ha
+$\dot z=0$. Derivando ora $z_p$ rispetto al tempo si ha
+\startformula \dot{z_p}=0 \stopformula giungiamo dunque allo stesso
+risultato. Abbiamo dunque verificato che la $z_p$ è una soluzione
+particolare della
+(\goto{{[}eq:crusoe_c=gammayz{]}}[eq:crusoe_cux3dgammayz]).
+
+La soluzione cercata è pertanto
+\startformula z=z_g+z_p=e^{-(1-\alpha)t}e^{c}+s \stopformula Abbiamo
+ancora la costante arbitraria $c$ che possiamo determinare utilizzando
+le condizioni iniziali ovvero imponendo che in $t=0$ si abbia $z=z_0$
+\startformula z_0=e^{-(1-\alpha)0}e^{c}+s=e^{c}+s \stopformula da cui si
+ottiene \startformula e^{c}=z_0-s \stopformula Sostituendo si ha
+\startformula z=[z_0-s]e^{-(1-\alpha)t}+s \stopformula Per ottenere la
+soluzione in termini di $k$ basta risostituire la definizione di $z$
+\startformula k^{1-\alpha}=[k_0^{1-\alpha}-s]e^{-(1-\alpha)t}+s \stopformula
+da cui elevando ambo i membri alla $\frac{1}{1-\alpha}$ si ottiene
+\startformula k=\left([k_0^{1-\alpha}-s]e^{-(1-\alpha)t}+s\right)^{\frac{1}{1-\alpha}} \stopformula
+
+Ora possiamo notare che per $\alpha<1$, si ha
+$\lim_{t\rightarrow \infty}e^{-(1-\alpha)t}=0$, ovvero $k$ converge a
+$k^*=s^{\frac{1}{1-\alpha}}$
+
+\section[title={Input durevole},reference={input-durevole}]
+
+La caratteristica del modello precedente è che abbiamo un input che ha
+un ammortamento pari a 1.
+
+Un modello più generale prevede un parametro in più per il tasso di
+ammortamento $\delta$. 
+\placeformula[eq:crusoe_delta]$$ \dot{k}=sk^\alpha-\delta k$$
+
+ripercorrendo l'analisi fatta precedentemente, si ottiene
+\startformula \dot{z}=(1-\alpha)s-\delta(1-\alpha)z;
+\qquad
+z_g=e^{-\delta(1-\alpha)t}e^{c};
+\qquad
+z_p=\frac{s}{\delta} \stopformula
+
+e la soluzione è
+\startformula k=\left(\left[k_0^{1-\alpha}-\frac{s}{\delta}\right]e^{-\delta(1-\alpha)t}+\frac{s}{\delta} \right)^{\frac{1}{1-\alpha}} \stopformula
+Il comportamento qualitativo è lo stesso del caso precedente, ma lo
+stato stazionario è ora
+\startformula k^*=\left(\frac{s}{\delta}\right)^{\frac{1}{1-\alpha}}. \stopformula
+
+Il codice seguente calcola e visualizza la soluzione per un valore
+iniziale di $k$ pari a 20 e per i seguenti valori dei parametri:
+$s=0.2$, $\delta=0.01$ e $\alpha=0.3$.
+
+\starttyping
+s<-0.2
+delta<-0.01
+alpha<-0.3
+k_0<-20
+t<-seq(0,20,by=0.1)
+k=((k_0^(1-alpha)-s/delta)*exp(-(1-alpha)*t)+s/delta)^(1/(1-alpha))
+plot(t,k,type="l")
+\stoptyping
+
+Il codice seguente seguente aggiunge alcune linee al precedente per
+calcolare e visualizzare le soluzioni per diversi valori iniziali di
+$k$.
+
+\starttyping
+#file crusoe_solution.R
+s<-0.2
+delta<-0.01
+alpha<-0.3
+k_0<-20
+t<-seq(0,20,by=0.1)
+k=((k_0^(1-alpha)-s/delta)*exp(-(1-alpha)*t)+s/delta)^(1/(1-alpha))
+plot(t,k,type="l",ylim=c(10,120))
+deltak_0<-10
+for(z in 1:10){
+k_0<-k_0+deltak_0
+k=((k_0^(1-alpha)-s/delta)*exp(-(1-alpha)*t)+s/delta)^(1/(1-alpha))
+lines(t,k)
+}
+\stoptyping
+
+La figura \goto{1}[fig:crusoe] mostra il grafico ottenuto dal codice.
+
+\placefigure[][fig:crusoe]{soluzioni per alcuni valori iniziali di
+$k$.}{\externalfigure[../dottorato/computer/R/crusoe.pdf]}
+
+{\bf Esercizio} verificare cosa accade per $\alpha\ge1$.

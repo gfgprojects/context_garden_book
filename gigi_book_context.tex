@@ -1,0 +1,145 @@
+%\definepapersize[exotic][width=400mm, height=300mm]
+%\setuppapersize[exotic]
+%\showframe[top,header,text,footer,bottom][leftedge,leftmargin,text,rightmargin,rightedge]
+\setuppapersize[A5]
+\setuplayout[width=0.6\paperwidth,rightmargin=0.2\paperwidth,topspace=10mm,header=10mm,footer=5mm,height=0.9\paperheight,location=duplex]
+%\showframe
+%\setuplayout[marking=on]
+\setupexternalfigures[location=default]
+%\setuplayout[textwidth=10cm,top=2cm,bottom=2cm,rightedge=2cm,leftedge=2cm,rightmargin=10cm]%,location=duplex]
+%\setuplayout[topspace=3cm,backspace=10cm,width=15cm,textwidth=15cm,top=2cm,bottom=2cm,rightedge=4cm,leftedge=2cm,rightmargin=5cm,leftmargin=2cm]%,location=duplex]
+%\setupbodyfont[iwona,10pt]
+%\setupbodyfont[times,10pt]
+\setupbodyfont[palatino,8pt] %platino,optima
+%\setupbodyfont[antykwa,10pt]
+%\setuppagenumbering[alternative=doublesided,location={header,inmargin},style=bold]
+\setuppagenumbering[alternative=doublesided,location=]
+\setupuserpagenumber[numberconversion=romannumerals]
+%\setuppagenumbering[conversion=Romannumerals]
+%\setupheadertexts[{\pagenumber \ \limitatetext{Chapter \headnumber[chapter]: \getmarking[chapter]}{6cm}{...}\par}][][][{\limitatetext{Chapter \headnumber[chapter]: \getmarking[chapter]}{6cm}{...} \ \pagenumber\par}]
+\setupcolors[state=start]
+%\setuphead[section][color=red]
+%------------------------------------------------------------------------------------------------------------
+% Setup the background of left and right pages --------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------
+
+%use
+%%\pushbackground[rightpage]
+% before the chapter command to suspend the background on the chapter page
+%the command 
+%\popbackground
+%resume the background. The backgraund has to be resumed in the next page. 
+%If you don't use a \page command you hate to place the command after some text
+
+\definelayer[rightpagebg]  % name of the layer
+    [x=0mm, y=0mm,  % from upper left corner of paper
+     width=\paperwidth, height=\paperheight,repeat=no] % let the layer cover the full paper
+
+\startsetups layerright
+\setlayer[rightpagebg][hoffset=8cm, voffset=1cm]{\limitatetext{Chapter \headnumber[chapter]: \getmarking[chapter]}{5cm}{...}}
+\setlayer[rightpagebg][hoffset=13.5cm, voffset=1cm]{\userpagenumber}
+\setlayer[rightpagebg][hoffset=8cm, voffset=1.25cm]{_________________________________________}
+\setlayer[rightpagebg][hoffset=1.8cm, voffset=19.7cm]{____________________}
+\setlayer[rightpagebg][hoffset=1.8cm, voffset=19.8cm]{\copyright \ Gianfranco Giulioni}
+\setlayer[rightpagebg][hoffset=1.8cm, voffset=20.1cm]{Book title}
+\stopsetups
+
+\setupbackgrounds[rightpage][setups=layerright,background=rightpagebg]
+
+
+\definelayer[leftpagebg]  % name of the layer
+    [x=0mm, y=0mm,  % from upper left corner of paper
+     width=\paperwidth, height=\paperheight,repeat=no] % let the layer cover the full paper
+
+\startsetups layerleft
+\setlayer[leftpagebg][hoffset=1cm, voffset=1cm]{\userpagenumber \hskip5mm \limitatetext{Section \headnumber[section]: \getmarking[section]}{6cm}{...}}
+\setlayer[leftpagebg][hoffset=1cm, voffset=1.25cm]{_________________________________________}
+\setlayer[leftpagebg][hoffset=10.2cm, voffset=19.7cm]{____________________}
+\setlayer[leftpagebg][hoffset=10.2cm, voffset=19.8cm]{\copyright \ Gianfranco Giulioni}
+\setlayer[leftpagebg][hoffset=10.2cm, voffset=20.1cm]{Book title}
+\stopsetups
+
+\setupbackgrounds[leftpage][setups=layerleft,background=leftpagebg]
+
+%------------------------------------------------------------------------------------------------------------
+% Setup the chapter page ------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------
+
+\startsetups [chapter:before]
+  \doifoddpageelse
+    {
+}
+    {
+\pushbackground[leftpage]
+%\page
+%\popbackground
+%     \setupbackgrounds[rightpage][background=color,backgroundcolor=gray]
+%     \page[right,blank]
+%     \popbackground
+%\noheaderandfooterlines
+}
+%\pushbackground[rightpage]
+\stopsetups
+
+\startsetups [chapter:after]
+\definelayer[fistchapterpagelayer]
+[x=0mm, y=0mm,  % from upper left corner of paper
+     width=\paperwidth, height=\paperheight] % let the layer cover the full paper
+\setlayer[fistchapterpagelayer][hoffset=0cm, voffset=11.6cm]{____________________}
+\setlayer[fistchapterpagelayer][hoffset=0cm, voffset=11.7cm]{\copyright \ Gianfranco Giulioni} 
+\setlayer[fistchapterpagelayer][hoffset=0cm, voffset=12.0cm]{Book title} 
+\flushlayer[fistchapterpagelayer]
+
+\stopsetups
+\definebodyfontswitch[huge][16pt]
+%style=\slb
+\setuphead[chapter][page=right,
+                   header=empty,
+                   command=\MyChapterCommand,
+%                   style=\thirty,
+                   number=yes,
+color=darkblue,
+before={\directsetup{chapter:before}},
+after={\directsetup{chapter:after}}
+]
+%,
+%                   before={\strut\blank[line]},
+%before={\directsetup{chapter:before}},
+%		   after={\blank[4*line]}]
+
+\setuphead[section][color=blue,style=\tfb \bf]
+\setuphead[subsection][color=lightblue,style=\tfa \bf]
+
+
+\defineoverlay[back-1][{\externalfigure[empty_chapter_background][width=0.8\paperwidth,height=6cm]}]
+%\defineoverlay[back-1][{\externalfigure[arte01][width=0.8\paperwidth,height=6cm]}]
+\defineoverlay[back-2][{\externalfigure[arte02][width=0.7\paperwidth,height=6cm]}]
+%0.8\paperwidth
+\define[2]\MyChapterCommand{
+\framed[background=back-\namedheadnumber{chapter},height=6cm,width=11.5cm,align=lef,location=hanging,frame=off,bottomframe=on,topframe=on]{
+\hfill\framed[height=2.5cm,width=3.5cm,frame=off,align=left]{
+\startMPcode{doublefun}
+draw btex Chapter etex scaled 0.8 rotated 90 withcolor black;
+\stopMPcode
+\startMPcode{doublefun}
+draw btex \bf \headnumber[chapter] etex scaled 5 withcolor black;
+%draw btex \tf \headnumber[chapter] etex scaled 5 withcolor white;
+%draw btex #2 etex scaled 2 shifted (0,1cm);
+\stopMPcode
+}
+
+\framed[height=3cm,width=0.65\paperwidth,align=right,frame=off]{\huge #2}
+%\framed[height=3cm,width=0.65\paperwidth,location=hanging,align=right,frame=on]{#2}
+}
+}
+
+%------------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------------
+
+\setupmargindata[right][style=]
+
+%--------------------------------------------------------------
+
+
+

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2021/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main_context.aux
+The style file: cont-no.bst
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: appunti_biblio.bib
+You've used 11 entries,
+            2185 wiz_defined-function locations,
+            549 strings with 4483 characters,
+and the built_in function-call counts, 4138 in all, are:
+= -- 89
+> -- 96
+< -- 17
++ -- 59
+- -- 26
+* -- 433
+:= -- 437
+add.period$ -- 16
+call.type$ -- 11
+change.case$ -- 12
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 324
+empty$ -- 383
+format.name$ -- 128
+if$ -- 554
+int.to.chr$ -- 2
+int.to.str$ -- 22
+missing$ -- 11
+newline$ -- 113
+num.names$ -- 44
+pop$ -- 492
+preamble$ -- 1
+purify$ -- 44
+quote$ -- 0
+skip$ -- 85
+stack$ -- 0
+substring$ -- 33
+swap$ -- 67
+text.length$ -- 6
+text.prefix$ -- 6
+top$ -- 0
+type$ -- 58
+warning$ -- 0
+while$ -- 16
+width$ -- 15
+write$ -- 516

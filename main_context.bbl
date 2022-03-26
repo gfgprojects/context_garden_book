@@ -1,0 +1,114 @@
+\setuppublicationlist[samplesize={Rom06},totalnumber=11]
+
+\startpublication[k=inada63,t=article,
+a={{Inada}},y=1963,
+n=1,s=Ina63]
+\artauthor[]{Ken-Ichi}[K.-I.]{}{Inada}
+\pubyear{1963}
+\arttitle{On a two-sector model of economic growth: Comments and a
+  generalization}
+\journal{The Review of Economic Studies}
+\volume{30}
+\issue{2}
+\pages{119-127}
+\stoppublication
+
+\startpublication[k=chiang84,t=book,
+a={{Chiang}},y=1984,
+n=2,s=Chi84]
+\author[]{Alpha~C.}[A.~C.]{}{Chiang}
+\pubyear{1984}
+\title{Fundamental Methods of Mathematical Economics}
+\pubname{McGraw-Hill}
+\edition{third}
+\stoppublication
+
+\startpublication[k=romer12,t=book,
+a={{Romer}},y=2012,
+n=3,s=Rom12]
+\author[]{David}[D.]{}{Romer}
+\pubyear{2012}
+\title{Advanced Macroeconomics}
+\pubname{McGraw-Hill}
+\edition{fourth}
+\stoppublication
+
+\startpublication[k=romer06,t=book,
+a={{Romer}},y=2006,
+n=4,s=Rom06]
+\author[]{David}[D.]{}{Romer}
+\pubyear{2006}
+\title{Advanced Macroeconomics}
+\pubname{McGraw-Hill}
+\edition{third}
+\stoppublication
+
+\startpublication[k=stachurski09,t=book,
+a={{Stachurski}},y=2009,
+n=5,s=Sta09]
+\author[]{John}[J.]{}{Stachurski}
+\pubyear{2009}
+\title{Economic Dynamics}
+\pubname{MIT Press}
+\stoppublication
+
+\startpublication[k=stokeylucas_89,t=book,
+a={{Stokey},{Lucas}},y=1989,
+n=6,s=SL89]
+\author[]{Nancy}[N.]{}{Stokey}
+\author[]{R.}[R.]{}{Lucas}
+\pubyear{1989}
+\title{Recursive methods in economic dynamics}
+\pubname{MIT}
+\stoppublication
+
+\startpublication[k=cugno_montrucchio98,t=book,
+a={{Cugno},{Montrucchio}},y=1998,
+n=7,s=CM98]
+\author[]{F.}[F.]{}{Cugno}
+\author[]{L.}[L.]{}{Montrucchio}
+\pubyear{1998}
+\title{Scelte intertemporali: teoria e modelli}
+\pubname{Carocci}
+\stoppublication
+
+\startpublication[k=heerAndMaussner09,t=book,
+a={{Heer},{Maussner}},y=2009,
+n=8,s=HM09]
+\author[]{Burkhard}[B.]{}{Heer}
+\author[]{Alfred}[A.]{}{Maussner}
+\pubyear{2009}
+\title{Dynamic General Equilibrium Modeling}
+\pubname{Springer}
+\edition{second}
+\stoppublication
+
+\startpublication[k=malliaris_brock82,t=book,
+a={{Malliaris},{Brock}},y=1982,
+n=9,s=MB82]
+\author[]{A.~G.}[A.~G.]{}{Malliaris}
+\author[]{W.~A.}[W.~A.]{}{Brock}
+\pubyear{1982}
+\title{Stochastic Methods in Economic and Finance}
+\pubname{Elsevier North-Holland}
+\stoppublication
+
+\startpublication[k=intriligator02,t=book,
+a={{Intriligator}},y=2002,
+n=10,s=Int02]
+\author[]{Michael~D.}[M.~D.]{}{Intriligator}
+\pubyear{2002}
+\title{Mathematical optimization and economic theory}
+\pubname{SIAM}
+\stoppublication
+
+\startpublication[k=bagliano_bertola04,t=book,
+a={{Bagliano},{Bertola}},y=2004,
+n=11,s=BB04]
+\author[]{Cesare}[C.]{}{Bagliano}
+\author[]{Giuseppe}[G.]{}{Bertola}
+\pubyear{2004}
+\title{Models for dynamic Macroeconomics}
+\pubname{Oxford University Press}
+\stoppublication
+

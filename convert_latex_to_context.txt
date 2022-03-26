@@ -1,0 +1,1 @@
+pandoc -f latex -t context input_latex.tex

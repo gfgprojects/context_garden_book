@@ -1,0 +1,322 @@
+system          > 
+system          > ConTeXt  ver: 2022.03.12 17:56 LMTX  fmt: 2022.3.13  int: english/english
+system          > 
+system          > 'cont-new.mkxl' loaded
+open source     > level 1, order 1, name '/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkxl/cont-new.mkxl'
+system          > beware: some patches loaded from cont-new.mkiv
+close source    > level 1, order 1, name '/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkxl/cont-new.mkxl'
+system          > files > jobname './main_context', input './main_context.tex', result './main_context'
+fonts           > latin modern fonts are not preloaded
+languages       > language 'en' is active
+open source     > level 1, order 2, name './main_context.tex'
+open source     > level 2, order 3, name 'gigi_book_context.tex'
+open source     > level 3, order 4, name '/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+close source    > level 3, order 4, name '/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv'
+colors          > 'rgb' color space is supported
+colors          > 'cmyk' color space is supported
+close source    > level 2, order 4, name 'gigi_book_context.tex'
+publications    > adding bib data to set 'default' from source 'appunti_biblio.bib'
+open source     > level 2, order 5, name 'prologo_context.tex'
+suggestion      > use \withgrave instead of \`
+characters      > instead of old school 'è' you can input the utf sequence è
+characters      > instead of old school 'È' you can input the utf sequence È
+characters      > instead of old school 'à' you can input the utf sequence à
+characters      > instead of old school 'ù' you can input the utf sequence ù
+characters      > instead of old school 'ò' you can input the utf sequence ò
+close source    > level 2, order 5, name 'prologo_context.tex'
+backend         > xmp > using file '/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml'
+pages           > flushing realpage 1, userpage 1, subpage 1
+pages           > flushing realpage 2, userpage 2, subpage 2
+structure       > sectioning > chapter @ level 2 : 0.1 -> Il problema dinamico di Robinson Crusoe
+metapost        > initializing instance 'doublefun:1' using format 'metafun' and method 'double'
+metapost        > loading 'metafun' as 'metafun.mpxl' using method 'double'
+metapost        > initializing number mode 'double'
+metapost        > trace > This is MPLIB for LuaMetaTeX, version 3.11, running in double mode.
+metapost        > trace > 
+metapost        > trace > loading metafun for lmtx, including the plain 1.004 base definitions
+metapost        > trace > 
+metapost        > use 'textext(.....)' instead of 'btex ..... etex'
+fonts           > bodyfont '16pt' is defined (can better be done global)
+fonts           > bodyfont '19.2pt' is defined (can better be done global)
+fonts           > bodyfont '12.8pt' is defined (can better be done global)
+open source     > level 2, order 6, name 'pdcrusoe.tex'
+Overfull \hbox (1.81572pt too wide) in paragraph at lines 1--6
+structure       > sectioning > section @ level 3 : 0.1.1 -> Il modello
+Overfull \hbox (0.78961pt too wide) in paragraph at lines 12--15
+Overfull \hbox (5.43239pt too wide) in paragraph at lines 19--25
+pages           > flushing realpage 3, userpage 1, subpage 3
+structure       > sectioning > section @ level 3 : 0.1.2 -> Stato stazionario
+structure       > sectioning > section @ level 3 : 0.1.3 -> Soluzione qualitativa
+Overfull \hbox (9.76248pt too wide) in paragraph at lines 65--68
+structure       > sectioning > subsection @ level 4 : 0.1.3.1 -> $c=\gamma y$
+Overfull \hbox (2.2626pt too wide) in paragraph at lines 71--74
+pages           > flushing realpage 4, userpage 2, subpage 4
+structure       > sectioning > subsection @ level 4 : 0.1.3.2 -> $c$ come parametro
+publications    > analyzing previous publication run for 'default'
+structure       > sectioning > section @ level 3 : 0.1.4 -> Soluzione quantitativa
+pages           > flushing realpage 5, userpage 3, subpage 5
+Overfull \hbox (11.7356pt too wide) in paragraph at lines 164--169
+pages           > flushing realpage 6, userpage 4, subpage 6
+structure       > sectioning > section @ level 3 : 0.1.5 -> Input durevole
+pages           > flushing realpage 7, userpage 5, subpage 7
+Overfull \hbox (50.0515pt too wide) in paragraph at lines 15--17
+Overfull \hbox (50.0515pt too wide) in paragraph at lines 19--21
+Overfull \hbox (50.0515pt too wide) in paragraph at lines 33--35
+pages           > flushing realpage 8, userpage 6, subpage 8
+floatblocks     > '1' placed (here)
+close source    > level 2, order 6, name 'pdcrusoe.tex'
+Overfull \hbox (2.15112pt too wide) in paragraph at lines 27--27
+Overfull \vbox (1.65509pt too high) detected at line 27 
+6:5: 
+6:5: \vlist[unknown][colormodel=1,realign=92,alignstate=3], width 67.59055pt, height 25.46121pt, direction l2r
+6:5: .\list
+6:5: ..\vlist[unknown][colormodel=1,realign=92,alignstate=3], width 67.59055pt, height 25.46121pt, depth 1.65509pt, direction l2r
+6:5: ...\list
+6:5: ....\hlist[line][colormodel=1], width 67.59055pt, height 4.46155pt, depth 1.69707pt, glue - 0.74478, direction l2r
+6:5: .....\list
+6:5: ......\glue[lefthangskip][colormodel=1] 0.0pt
+6:5: ......\glue[leftskip][colormodel=1] 0.0pt
+6:5: ......\par[vmodepar][colormodel=1]
+6:5: ......\glue[indentskip][colormodel=1] 0.0pt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.02089pt, ht 4.14972pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000049 I
+6:5: ......\glyph[32768][colormodel=1], protected , wd 3.49008pt, ht 2.81245pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+00006E n
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.95493pt, ht 3.72395pt, dp 0.07196pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000074 t
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.3687pt, ht 2.81245pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000072 r
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.72105pt, ht 3.84988pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.74504pt, ht 4.3536pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+00006C l
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.72105pt, ht 3.84988pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 3.33417pt, ht 2.81245pt, dp 1.69707pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000067 g
+6:5: ......\kern[fontkern][colormodel=1], amount -0.08995ptpt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 2.81245pt, dp 0.07196pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000061 a
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.95493pt, ht 3.72395pt, dp 0.07196pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000074 t
+6:5: ......\kern[fontkern][colormodel=1], amount -0.05997ptpt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 3.2742pt, ht 2.81245pt, dp 0.11993pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+00006F o
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.3687pt, ht 2.81245pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000072 r
+6:5: ......\glue[spaceskip][colormodel=1] 1.49918pt plus 0.74959pt minus 0.49973pt, font 17
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.7345pt, ht 4.46155pt, dp 1.4632pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000028 (
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.13173pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000032 2
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.13173pt, dp 0.11993pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000030 0
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.13173pt, dp 0.11993pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000030 0
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.13173pt, dp 0.01799pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000032 2
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.7345pt, ht 4.46155pt, dp 1.4632pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+000029 )
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.49918pt, ht 0.7376pt, dp 0.92949pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <17: texgyrepagella-regular @ 6.0pt>, glyph U+00002C ,
+6:5: ......\glue[spaceskip][colormodel=1] 1.49918pt plus 0.93698pt minus 0.39978pt, font 17
+6:5: ......\glyph[32768][colormodel=1], protected , wd 5.66089pt, ht 4.14972pt, dp 0.10794pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00004D M
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000061 a
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 3.87387pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000074 t
+6:5: ......\kern[fontkern][colormodel=1], amount -0.14992ptpt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.39558pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000068 h
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.33272pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000065 e
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 1.68507pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, discpart 1, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00002D -
+6:5: ......\glue[rightskip][colormodel=1] 0.0pt
+6:5: ......\glue[righthangskip][colormodel=1] 0.0pt
+6:5: ....\penalty[linebreakpenalty][colormodel=1], amount 2100
+6:5: ....\glue[baselineskip][colormodel=1] 4.40718pt
+6:5: ....\hlist[line][colormodel=1], width 67.59055pt, height 4.39558pt, depth 1.65509pt, glue - 1.0, direction l2r
+6:5: .....\list
+6:5: ......\glue[lefthangskip][colormodel=1] 0.0pt
+6:5: ......\glue[leftskip][colormodel=1] 0.0pt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 4.66544pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006D m
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000061 a
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 3.87387pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000074 t
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.66708pt, ht 4.01779pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.44066pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000063 c
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000061 a
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.66708pt, ht 4.39558pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006C l
+6:5: ......\glue[spaceskip][colormodel=1] 1.49918pt plus 0.74959pt minus 0.49973pt, font 32
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006F o
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 2.89041pt, dp 1.65509pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000070 p
+6:5: ......\kern[fontkern][colormodel=1], amount -0.08995ptpt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 3.87387pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000074 t
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.66708pt, ht 4.01779pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 4.66544pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006D m
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.66708pt, ht 4.01779pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00007A z
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000061 a
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 3.87387pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000074 t
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.66708pt, ht 4.01779pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006F o
+6:5: ......\glyph[32768][colormodel=1], protected , wd 3.33417pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006E n
+6:5: ......\glue[spaceskip][colormodel=1] 1.49918pt plus 0.74959pt minus 0.49973pt, font 32
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000061 a
+6:5: ......\glyph[32768][colormodel=1], protected , wd 3.33417pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006E n
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.39558pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000064 d
+6:5: ......\glue[spaceskip][colormodel=1] 1.49918pt plus 0.74959pt minus 0.49973pt, font 32
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.33272pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000065 e
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.44066pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000063 c
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006F o
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 1.68507pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, discpart 1, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00002D -
+6:5: ......\glue[correctionskip][colormodel=1] -2.15112pt
+6:5: ......\glue[rightskip][colormodel=1] 0.0pt
+6:5: ......\glue[righthangskip][colormodel=1] 0.0pt
+6:5: ....\penalty[linebreakpenalty][colormodel=1], amount 2100
+6:5: ....\glue[baselineskip][colormodel=1] 4.44916pt
+6:5: ....\hlist[line][colormodel=1], width 67.59055pt, height 4.39558pt, depth 1.65509pt, glue 36.05988fil, direction l2r
+6:5: .....\list
+6:5: ......\glue[lefthangskip][colormodel=1] 0.0pt
+6:5: ......\glue[leftskip][colormodel=1] 0.0pt
+6:5: ......\glue[parfillleftskip][colormodel=1] 0.0pt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 3.33417pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006E n
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006F o
+6:5: ......\glyph[32768][colormodel=1], protected , wd 4.66544pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006D m
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.66708pt, ht 4.01779pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000069 i
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.44066pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000063 c
+6:5: ......\glue[spaceskip][colormodel=1] 1.49918pt plus 0.74959pt minus 0.49973pt, font 32
+6:5: ......\glyph[32768][colormodel=1], protected , wd 1.9969pt, ht 3.87387pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000074 t
+6:5: ......\kern[fontkern][colormodel=1], amount -0.14992ptpt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 4.39558pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000068 h
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.33272pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000065 e
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.66254pt, ht 2.89041pt, dp 0.06596pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+00006F o
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.33272pt, ht 2.89041pt, dp 0.05397pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000072 r
+6:5: ......\kern[fontkern][colormodel=1], amount 0.08995ptpt
+6:5: ......\glyph[32768][colormodel=1], protected , wd 2.99835pt, ht 2.89041pt, dp 1.65509pt, language (n=1,l=2,r=3), hyphenationmode "79F3F, options "80, font <32: texgyrepagella-italic @ 6.0pt>, glyph U+000079 y
+6:5: ......\penalty[linepenalty][colormodel=1], amount 10000
+6:5: ......\glue[parfillskip][colormodel=1] 0.0pt plus 1.0fil
+6:5: ......\glue[rightskip][colormodel=1] 0.0pt
+6:5: ......\glue[righthangskip][colormodel=1] 0.0pt
+6:5: ..\glue[userskip][colormodel=1,realign=92,alignstate=3] 0.0pt plus 1.0fill
+floatblocks     > '2' placed ()
+pages           > flushing realpage 9, userpage 7, subpage 9
+publications    > list > collecting entries using method 'global' and sort order 'default'
+pages           > flushing realpage 10, userpage 8, subpage 10
+close source    > level 1, order 6, name './main_context.tex'
+system          > start used files
+system          > text: main_context
+system          > stop used files
+system          > start used files
+system          >    1: filename=publ-imp-default.lua filetype=lua foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+system          >    2: filename=cont-new.mkxl filetype=tex foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkxl/cont-new.mkxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkxl/cont-new.mkxl usedmethod=database
+system          >    3: filename=lang-exc.lua filetype=lua foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/lang-exc.lua usedmethod=database
+system          >    4: filename=lang-us.lua filetype=lua foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+system          >    5: filename=/home/giulioni/tmp/appunti/context/main_context.tex format=tex foundname=/home/giulioni/tmp/appunti/context/main_context.tex fullname=/home/giulioni/tmp/appunti/context/main_context.tex usedmethod=direct
+system          >    6: filename=gigi_book_context.tex format=tex foundname=gigi_book_context.tex fullname=/home/giulioni/tmp/appunti/context/gigi_book_context.tex usedmethod=direct
+system          >    7: filename=type-imp-texgyre.mkiv filetype=tex foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/type-imp-texgyre.mkiv usedmethod=database
+system          >    8: filename=lm.lfg filetype=tex foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/lm.lfg usedmethod=database
+system          >    9: filename=texgyrepagella-regular filetype=otf format=otf foundname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf fullname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-regular.otf usedmethod=database
+system          >   10: filename=texgyrepagella-math.otf filetype=otf format=otf foundname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf fullname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre-math/texgyrepagella-math.otf usedmethod=database
+system          >   11: filename=pagella-math.lfg filetype=tex foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/pagella-math.lfg fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/fonts/mkiv/pagella-math.lfg usedmethod=database
+system          >   12: filename=appunti_biblio.bib format=bib foundname=appunti_biblio.bib fullname=/home/giulioni/tmp/appunti/context/appunti_biblio.bib usedmethod=direct
+system          >   13: filename=prologo_context.tex format=tex foundname=prologo_context.tex fullname=/home/giulioni/tmp/appunti/context/prologo_context.tex usedmethod=direct
+system          >   14: filename=lpdf-pdx.xml filetype=tex foundname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml fullname=/home/giulioni/Scaricati/context/tex/texmf-context/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
+system          >   15: filename=metafun.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/metafun.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/metafun.mpxl usedmethod=database
+system          >   16: filename=mp-base.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-base.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-base.mpxl usedmethod=database
+system          >   17: filename=mp-tool.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-tool.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-tool.mpxl usedmethod=database
+system          >   18: filename=mp-luas.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-luas.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-luas.mpxl usedmethod=database
+system          >   19: filename=mp-mlib.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-mlib.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-mlib.mpxl usedmethod=database
+system          >   20: filename=mp-math.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-math.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-math.mpxl usedmethod=database
+system          >   21: filename=mp-cont.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-cont.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-cont.mpxl usedmethod=database
+system          >   22: filename=mp-page.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-page.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-page.mpxl usedmethod=database
+system          >   23: filename=mp-butt.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-butt.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-butt.mpxl usedmethod=database
+system          >   24: filename=mp-shap.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-shap.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-shap.mpxl usedmethod=database
+system          >   25: filename=mp-grph.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-grph.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-grph.mpxl usedmethod=database
+system          >   26: filename=mp-grid.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-grid.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-grid.mpxl usedmethod=database
+system          >   27: filename=mp-form.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-form.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-form.mpxl usedmethod=database
+system          >   28: filename=mp-figs.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-figs.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-figs.mpxl usedmethod=database
+system          >   29: filename=mp-func.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-func.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-func.mpxl usedmethod=database
+system          >   30: filename=mp-node.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-node.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-node.mpxl usedmethod=database
+system          >   31: filename=mp-apos.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-apos.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-apos.mpxl usedmethod=database
+system          >   32: filename=mp-abck.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-abck.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-abck.mpxl usedmethod=database
+system          >   33: filename=mp-asnc.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-asnc.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-asnc.mpxl usedmethod=database
+system          >   34: filename=mp-blob.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-blob.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-blob.mpxl usedmethod=database
+system          >   35: filename=mp-lmtx.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-lmtx.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-lmtx.mpxl usedmethod=database
+system          >   36: filename=mp-text.mpxl filetype=mp foundname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-text.mpxl fullname=/home/giulioni/Scaricati/context/tex/texmf-context/metapost/context/base/mpxl/mp-text.mpxl usedmethod=database
+system          >   37: filename=texgyrepagella-bold filetype=otf format=otf foundname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf fullname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-bold.otf usedmethod=database
+system          >   38: filename=empty_chapter_background.png foundname=empty_chapter_background.png fullname=/home/giulioni/tmp/appunti/context/empty_chapter_background.png usedmethod=direct
+system          >   39: filename=pdcrusoe.tex format=tex foundname=pdcrusoe.tex fullname=/home/giulioni/tmp/appunti/context/pdcrusoe.tex usedmethod=direct
+system          >   40: filename=texgyrepagella-italic filetype=otf format=otf foundname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf fullname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/tex-gyre/texgyrepagella-italic.otf usedmethod=database
+system          >   41: filename=lmmono10-regular filetype=otf format=otf foundname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/lm/lmmono10-regular.otf fullname=/home/giulioni/Scaricati/context/tex/texmf/fonts/opentype/public/lm/lmmono10-regular.otf usedmethod=database
+system          >   42: filename=deep_sea_dive.png foundname=deep_sea_dive.png fullname=/home/giulioni/tmp/appunti/context/deep_sea_dive.png usedmethod=direct
+system          > stop used files
+system          > start commandline options
+system          > currentrun="1"
+system          > fulljobname="./main_context.tex"
+system          > input="./main_context.tex"
+system          > kindofrun="1"
+system          > maxnofruns="9"
+system          > texmfbinpath="/home/giulioni/Scaricati/context/tex/texmf-linux-64/bin"
+system          > stop commandline options
+system          > start commandline files
+system          >    1: ./main_context.tex
+system          > stop commandline files
+modules         > start used modules
+modules         > stop used modules
+system          > 
+system          > status after finishing run
+system          > 
+system          >   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+system          >           string       pool       hash     lookup       node      token     buffer      input       file       nest  parameter       save       font   language       mark     insert
+system          >   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+system          >   max    2097152  100000000    2097152    2097152  100000000   10000000  100000000     100000       2000      10000     100000     500000     100000      10000      10000        500
+system          >   min     150000   10000000     150000     150000    1000000    1000000    1000000      10000        500       1000      20000     100000        250        250         50         10
+system          >   set     500000   10000000     250000     250000   50000000   10000000   10000000     100000       2000      10000     100000     500000     100000        250        250        250
+system          >   stp     100000    1000000     100000     100000     500000     250000    1000000      10000        250       1000      10000      10000        250        250         50         25
+system          > 
+system          >   mem     150000     927906     150000               1000000    1000000    1000000      10000        500       1000      20000      10000   12242336         96       1200        320
+system          >   all    2400000     927906    2400000               9000000    8000000    1000000     320000      16000      56000      80000     160000   12242336         96      28800      10240
+system          > 
+system          >   ini    2142917     863699          0      45747          0     501408                                                                                       0                      
+system          >   ptr      48389                  9743      48371                573945          0          0          0          0          0          0         32          0         28          7
+system          >   top      48390                740702     131074      49286     555519        680         42          8         16         45        867        250        250         50         10
+system          >   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+system          > 
+system          >   current input type    : initial
+system          > 
+system          >   approximate memory    : 39731026 (37 MB)
+system          > 
+system          >   expansion depth       : min: 10000, max: 1000000, set: 10000, top: 9
+system          > 
+system          >   luabytecode registers : 1003
+system          >   luabytecode bytes     : 16064 (0 MB)
+system          >   luastate bytes now    : 76373602 (72 MB)
+system          >   luastate bytes max    : 84211056 (80 MB)
+system          > 
+system          >   file callbacks        : 810
+system          >   saved callbacks       : 4244
+system          >   direct callbacks      : 7
+system          >   function callbacks    : 2773
+system          >   value callbacks       : 25
+system          >   message callbacks     : 0
+system          >   bytecode callbacks    : 601
+system          > 
+system          >   mp instances          : 1
+system          >   mp estimated memory   : 3845040 (3 MB)
+system          >   mp file callbacks     : 12874
+system          >   mp text callbacks     : 2
+system          >   mp script callbacks   : 357
+system          >   mp log callbacks      : 25
+system          > 
+system          >   total callbacks       : 8460
+system          >   mp total callbacks    : 13258
+system          >   backend callbacks     : 0
+system          > 
+mkiv lua stats  > used config file: selfautoparent:/texmf/web2c/texmfcnf.lua
+mkiv lua stats  > used cache path: /home/giulioni/Scaricati/context/tex/texmf-cache/luametatex-cache/context/5fe67e0bfe781ce0dde776fb1556f32e
+mkiv lua stats  > resource resolver: loadtime 0.003 seconds, 0 scans with scantime 0.000 seconds, 0 shared scans, 42 found files, scanned paths: <none>
+mkiv lua stats  > stored bytecode data: 503 modules (0.196 sec), 98 tables (0.012 sec), 601 chunks (0.208 sec)
+mkiv lua stats  > traced context: maxstack: 1625, freed: 0, unreachable: 1625
+mkiv lua stats  > cleaned up reserved nodes: 86 nodes, 10 lists of 437
+mkiv lua stats  > node memory usage: 21 attribute, 1 dir, 2 glue, 69 glue_spec, 15 glyph, 3 kern, 2 penalty, 2 temp
+mkiv lua stats  > node list callback tasks: 12 unique task lists, 13 instances (re)created, 2022 calls
+mkiv lua stats  > h-node processing time: 0.029 seconds including kernel
+mkiv lua stats  > driver time: 0.052 seconds 
+mkiv lua stats  > used backend: pdf
+mkiv lua stats  > jobdata time: 0.003 seconds saving, 0.001 seconds loading
+mkiv lua stats  > callbacks: file: 810, saved: 4244, direct: 7, function: 2773, value: 25, message: 0, bytecode: 601, late 0, total: 8460 (846 per page)
+mkiv lua stats  > randomizer: resumed with value 0.78254260014724
+mkiv lua stats  > loaded patterns: en::1, load time: 0.000
+mkiv lua stats  > interactive elements: 0 references, 2 destinations
+mkiv lua stats  > margin data: 1 entries, 0 pending
+mkiv lua stats  > loaded fonts: 5 files: lmmono10-regular.otf, texgyrepagella-math.otf, texgyrepagella-bold.otf, texgyrepagella-italic.otf, texgyrepagella-regular.otf
+mkiv lua stats  > font engine: otf 3.119, afm 1.513, tfm 1.000, 32 instances, 25 shared in backend, 3 common vectors, 22 common hashes, load time 0.234 seconds 
+mkiv lua stats  > body font sizes: defined: 10pt 11pt 12pt 14.4pt 17.3pt 20.7pt 4pt 5pt 6pt 7pt 8pt 9pt, undefined: 12.8pt 16pt 19.2pt
+mkiv lua stats  > metapost: 0.010 seconds, loading: 0.026, execution: 0.010, n: 4, average: 0.011, instances: 1, luacalls: 13258 (file: 12874, text: 2, script: 357, log: 25), memory: 3.667 M
+mkiv lua stats  > graphics processing time: 0.019 seconds including tex, 3 processed images, 3 unique asked, 1 bad names
+mkiv lua stats  > publications load time: 0.000 seconds, 3319 bytes, 11 definitions, 0 shortcuts
+mkiv lua stats  > font embedding time: 0.008 seconds, 5 fonts
+mkiv lua stats  > result saved in file: main_context.pdf, compresslevel 1, objectcompresslevel 3
+mkiv lua stats  > positions: 111 collected, 50 deltas, 104 shared partials, 5 partial entries
+mkiv lua stats  > used platform: linux-64, type: unix, binary subtree: texmf-linux-64
+mkiv lua stats  > used engine: luametatex version: 2.0942, functionality level: 20220312, format id: 642, compiler: gcc
+mkiv lua stats  > tex properties: 740702 hash slots used of 2097152, 48371 control sequences, approximate memory usage: 37 MB
+mkiv lua stats  > lua properties: engine: lua 5.4, used memory: 76 MB, ctx: 72 MB, max: 80 MB, symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 0.750 seconds, 10 processed pages, 10 shipped pages, 13.340 pages/second
