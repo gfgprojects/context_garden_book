@@ -36,9 +36,9 @@
      width=\paperwidth, height=\paperheight,repeat=no] % let the layer cover the full paper
 
 \startsetups layerright
-\setlayer[rightpagebg][hoffset=8cm, voffset=1cm]{\limitatetext{Chapter \headnumber[chapter]: \getmarking[chapter]}{5cm}{...}}
+\setlayer[rightpagebg][hoffset=1.8cm, voffset=1cm]{\limitatetext{Chapter \headnumber[chapter]: \getmarking[chapter]}{10cm}{...}}
 \setlayer[rightpagebg][hoffset=13.5cm, voffset=1cm]{\userpagenumber}
-\setlayer[rightpagebg][hoffset=8cm, voffset=1.25cm]{_________________________________________}
+\setlayer[rightpagebg][hoffset=1.8cm, voffset=1.25cm]{_____________________________________________________________________________________}
 \setlayer[rightpagebg][hoffset=1.8cm, voffset=19.7cm]{____________________}
 \setlayer[rightpagebg][hoffset=1.8cm, voffset=19.8cm]{\copyright \ Gianfranco Giulioni}
 \setlayer[rightpagebg][hoffset=1.8cm, voffset=20.1cm]{Book title}
@@ -53,7 +53,7 @@
 
 \startsetups layerleft
 \setlayer[leftpagebg][hoffset=1cm, voffset=1cm]{\userpagenumber \hskip5mm \limitatetext{Section \headnumber[section]: \getmarking[section]}{6cm}{...}}
-\setlayer[leftpagebg][hoffset=1cm, voffset=1.25cm]{_________________________________________}
+\setlayer[leftpagebg][hoffset=1cm, voffset=1.25cm]{_____________________________________________________________________________________}
 \setlayer[leftpagebg][hoffset=10.2cm, voffset=19.7cm]{____________________}
 \setlayer[leftpagebg][hoffset=10.2cm, voffset=19.8cm]{\copyright \ Gianfranco Giulioni}
 \setlayer[leftpagebg][hoffset=10.2cm, voffset=20.1cm]{Book title}
@@ -111,8 +111,8 @@ after={\directsetup{chapter:after}}
 \setuphead[subsection][color=lightblue,style=\tfa \bf]
 
 
-\defineoverlay[back-1][{\externalfigure[empty_chapter_background][width=0.8\paperwidth,height=6cm]}]
-%\defineoverlay[back-1][{\externalfigure[arte01][width=0.8\paperwidth,height=6cm]}]
+%\defineoverlay[back-1][{\externalfigure[empty_chapter_background][width=0.8\paperwidth,height=6cm]}]
+\defineoverlay[back-1][{\externalfigure[arte01][width=0.8\paperwidth,height=6cm]}]
 \defineoverlay[back-2][{\externalfigure[arte02][width=0.7\paperwidth,height=6cm]}]
 %0.8\paperwidth
 \define[2]\MyChapterCommand{
